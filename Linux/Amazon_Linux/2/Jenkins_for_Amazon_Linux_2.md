@@ -1,3 +1,4 @@
+Link : https://www.jenkins.io/download/
 ### First add the repository
 ```
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
