@@ -10,3 +10,13 @@ sudo apt install nginx
 ```
 sudo ufw app list
 ```
+
+```
+Output
+Available applications:
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+  OpenSSH
+```
+
