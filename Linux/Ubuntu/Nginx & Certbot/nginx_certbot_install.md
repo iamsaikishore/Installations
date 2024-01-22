@@ -20,3 +20,7 @@ Available applications:
   OpenSSH
 ```
 
+```
+systemctl status nginx
+```
+
