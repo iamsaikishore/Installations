@@ -24,3 +24,15 @@ Available applications:
 systemctl status nginx
 ```
 
+[Certbot Official Download](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
+
+[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
+
+```
+sudo apt install certbot python3-certbot-apache
+or
+sudo apt install certbot python3-certbot-nginx
+```
+```
+sudo certbot --apache
+```
