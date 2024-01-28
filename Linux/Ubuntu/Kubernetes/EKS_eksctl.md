@@ -93,3 +93,14 @@ eksctl create nodegroup --cluster=my-eks2 \
 
 ## Create Service Account, Role & Assign that role, And create a secret for Service Account and geenrate a Token
 
+### Creating Service Account
+
+
+```yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jenkins
+  namespace: webapps
+```
+
