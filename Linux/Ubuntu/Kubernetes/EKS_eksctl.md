@@ -12,3 +12,5 @@ AmazonEKSWorkerNodePolicy
 AWSCloudFormationFullAccess
 
 IAMFullAccess
+
+#### One more policy we need to create with content as below
