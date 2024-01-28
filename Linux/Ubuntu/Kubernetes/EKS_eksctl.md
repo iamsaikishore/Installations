@@ -146,3 +146,23 @@ rules:
       - services
     verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
 ```
+
+### Bind the role to service account
+
+
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: app-rolebinding
+  namespace: webapps 
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: app-role 
+subjects:
+- namespace: webapps 
+  kind: ServiceAccount
+  name: jenkins 
+```
+
