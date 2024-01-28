@@ -14,3 +14,17 @@ AWSCloudFormationFullAccess
 IAMFullAccess
 
 #### One more policy we need to create with content as below
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "eks:*",
+            "Resource": "*"
+        }
+    ]
+}
+```
+Attach this policy to your user as well
