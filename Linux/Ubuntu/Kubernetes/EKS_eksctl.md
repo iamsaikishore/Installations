@@ -91,3 +91,5 @@ eksctl create nodegroup --cluster=my-eks2 \
 * Open INBOUND TRAFFIC IN ADDITIONAL Security Group
 * Create Servcie account/ROLE/BIND-ROLE/Token
 
+## Create Service Account, Role & Assign that role, And create a secret for Service Account and geenrate a Token
+
