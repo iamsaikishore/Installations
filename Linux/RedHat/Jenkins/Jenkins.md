@@ -14,4 +14,5 @@ sudo yum upgrade
 # Add required dependencies for the jenkins package
 sudo yum install fontconfig java-17-openjdk
 sudo yum install jenkins
+sudo systemctl daemon-reload
 ```
