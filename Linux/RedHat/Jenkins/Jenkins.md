@@ -17,8 +17,12 @@ sudo yum install jenkins
 sudo systemctl daemon-reload
 ```
 
-##Start Jenkins
+##  Start Jenkins
 You can enable the Jenkins service to start at boot with the command:
 ```
 sudo systemctl enable jenkins
+```
+You can start the Jenkins service with the command:
+```
+sudo systemctl start jenkins
 ```
