@@ -16,3 +16,9 @@ sudo yum install fontconfig java-17-openjdk
 sudo yum install jenkins
 sudo systemctl daemon-reload
 ```
+
+##Start Jenkins
+You can enable the Jenkins service to start at boot with the command:
+```
+sudo systemctl enable jenkins
+```
