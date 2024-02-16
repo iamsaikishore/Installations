@@ -60,3 +60,4 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    sudo chmod -v +x /usr/local/bin/docker-compose
    ```
 
+![Installing-docker-compose-on-Amazon-Linux-2-AMI](https://github.com/iamsaikishore/Installations/assets/129657174/d8c80650-682f-45b8-a0b4-cc2363099db5)
