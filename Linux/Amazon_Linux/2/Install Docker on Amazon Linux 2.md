@@ -25,4 +25,9 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
 ![Searching-for-Docker-package-on-Amazon-Linux-2-AM](https://github.com/iamsaikishore/Installations/assets/129657174/87473869-643a-49f4-a5fc-876f0fb0f129)
 
 5. Install docker, run:
+   ```
+   sudo yum install docker
+   ```
+
+
    
