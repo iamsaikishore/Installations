@@ -40,6 +40,16 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    ```
 
 7. Need docker-compose too? Try any one of the following command:
-   
-   
+   ```
+   # 1. Get pip3 
+   sudo yum install python3-pip
+ 
+   # 2. Then run any one of the following
+   sudo pip3 install docker-compose # with root access
+ 
+   # OR #
+ 
+   pip3 install --user docker-compose # without root access for security reasons
+   ```
+
    
