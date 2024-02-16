@@ -39,5 +39,7 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    newgrp docker
    ```
 
-
+7. Need docker-compose too? Try any one of the following command:
+   
+   
    
