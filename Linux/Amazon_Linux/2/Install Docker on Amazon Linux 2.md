@@ -67,5 +67,6 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    sudo systemctl enable docker.service
    ```
 
-
+9. Start the Docker service:
+    
 
