@@ -1,3 +1,5 @@
 ## Installing Docker on Amazon Linux 2
 
 The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 or Lightsail instance is as follows:
+
+1. Login into remote AWS server using the ssh command:
