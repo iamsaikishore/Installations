@@ -52,4 +52,11 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    pip3 install --user docker-compose # without root access for security reasons
    ```
 
-   
+   OR
+
+   ```
+   wget https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) 
+   sudo mv docker-compose-$(uname -s)-$(uname -m) /usr/local/bin/docker-compose
+   sudo chmod -v +x /usr/local/bin/docker-compose
+   ```
+
