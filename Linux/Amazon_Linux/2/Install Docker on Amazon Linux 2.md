@@ -32,5 +32,12 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
 ![Installing-Docker-on-Amazon-Linux-2-AMI-using-yum-command](https://github.com/iamsaikishore/Installations/assets/129657174/c175760c-aec8-4c38-9af2-d3001d641328)
 
 6. Add group membership for the default ec2-user so you can run all docker commands without using the sudo command:
-   
+   ```
+   sudo usermod -a -G docker ec2-user
+   id ec2-user
+   # Reload a Linux user's group assignments to docker w/o logout
+   newgrp docker
+   ```
+
+
    
