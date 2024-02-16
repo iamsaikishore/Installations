@@ -17,5 +17,6 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    sudo yum search docker
    ```
 
-
+4. Get version information:
+   
  
