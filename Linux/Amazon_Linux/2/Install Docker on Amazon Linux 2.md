@@ -8,5 +8,9 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    ```
 
 2. Apply pending updates using the yum command:
-   
+   ```
+   sudo yum update
+   ```
+
+
  
