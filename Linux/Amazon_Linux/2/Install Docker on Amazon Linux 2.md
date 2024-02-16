@@ -7,3 +7,6 @@ The procedure to install Docker on AMI 2 (Amazon Linux 2) running on either EC2 
    ssh ec2-user@ec2-ip-address-dns-name-here
    ```
 
+2. Apply pending updates using the yum command:
+   
+ 
